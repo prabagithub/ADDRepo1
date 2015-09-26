@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="run" name="Add build">
+<target name="run" depends="compile">
+</target>
+<target name="compile">
+<javac srcdir="./src" destdir="build"/>
+</target>
+</project>
